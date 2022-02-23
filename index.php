@@ -20,6 +20,19 @@ $(document).ready(function() {
 });
 request.done(function( data ) {
   console.log(data); 
+  $("#filetitle").html(data.title); 
+
+  //load data on page so we can see it. 
+  //$("#output").text(JSON.stringify(data));
+
+  let myData = JSON.stringify(data,null,4);
+
+
+  myData = "<pre>" + myData + "</pre>";
+  $("#output").html(myData);
+
+
+  
 });
 request.fail(function(xhr, status, error) {
                //Ajax request failed.
