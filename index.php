@@ -16,6 +16,10 @@ body {font-family:georgia;}
     position:absolute;
     right:10px;
     top:10px;
+  .pic img {
+    max-width: 70px; 
+    max-height: 70px; 
+  }  
   }
 
 </style>
@@ -32,7 +36,7 @@ function haloTemplate(halo){
     <b>Writer: </b> ${halo.Writer}<br /> 
     <b>Producer: </b> ${halo.Producer}<br /> 
     <b>Ratings: </b> ${halo.Ratings}<br /> 
-    <div class="pic"><img src="thumbnails/${halo.Image}"/></div>  `;
+    <div class="pic"><img src="images/${halo.Image}"/></div>  `;
 }
 
 

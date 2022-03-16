@@ -47,7 +47,7 @@
 				"Writer":"Brian Reed",
 				"Producer":"Chris Lee, Tin Longo, and Brad Welch",
 				"Ratings":"7.2/10",
-				"Image":"halo5-guardian.jpg"
+				"Image":"halo5-guardians.jpg"
 			  },
 			  {
 				"Title":"Halo 6: Infinite",
@@ -55,7 +55,7 @@
 				"Writer":"Dan Chosich, Paul Crocker, JeffEasterling, and Aaron Linde",
 				"Producer":"Mary Olson",
 				"Ratings":"8.5/10",
-				"Image":"halo6-infinte.jpg"
+				"Image":"halo6-infinite.jpg"
 			  },
 			  {
 					"Title":"Halo 1 Combat Evolved",
