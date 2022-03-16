@@ -16,10 +16,12 @@ body {font-family:georgia;}
     position:absolute;
     right:10px;
     top:10px;
-  .pic img {
-    max-width: 70px; 
-    max-height: 70px; 
-  }  
+    
+  
+  }
+
+  .pic img{
+    max-width:70px;
   }
 
 </style>
@@ -103,10 +105,10 @@ request.fail(function(xhr, status, error) {
 	<body>
 	<h1>Halo Video Game</h1>
 		<a href="year" class="category">Halo By Year</a><br />
-		<a href="ratings" class="category">Halo by Rating</a>
+		<a href="box" class="category">Halo by Rating</a>
 		<h3 id="halos">Halo</h3>
 		<div id="halos">
-			<p>Halos will go here</p>
+			<p>Halo games will go here</p>
 		</div>
 
 
